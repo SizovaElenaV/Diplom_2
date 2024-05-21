@@ -67,3 +67,5 @@ def get_random_ingredients():
         data.append(random.choice(response_data)['_id'])
 
     return data
+
+

@@ -9,6 +9,7 @@ def new_user_with_payload():
     return register_new_user_and_return_payload(payload)
 
 
+
 @pytest.fixture
 def new_user_with_tokens():
     payload = get_user_register_payload()
